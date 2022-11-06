@@ -30,8 +30,12 @@ public class MainActivity extends AppCompatActivity {
     private void populateData() {
         List<DataModel> dataModelList = new ArrayList<>();
 
-        dataModelList.add(new DataModel("Android Oreo", "8.1"));
+        dataModelList.add(new DataModel("Tiramisu", "OS 13"));
+        dataModelList.add(new DataModel("Snow Cone", "OS 12"));
+        dataModelList.add(new DataModel("Red Velvet Cake", "OS 11"));
+        dataModelList.add(new DataModel("Quince Tart", "OS 10"));
         dataModelList.add(new DataModel("Android Pie", "9.0"));
+        dataModelList.add(new DataModel("Android Oreo", "8.0"));
         dataModelList.add(new DataModel("Android Nougat", "7.0"));
         dataModelList.add(new DataModel("Android Marshmallow", "6.0"));
 
